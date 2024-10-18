@@ -64,19 +64,22 @@
   position: relative;
   left: -50px;
 }
-.nav__link {
+.nav__links {
   display: flex;
   list-style-type: none;
   gap: 20px;
   padding: 0;
   margin: 0;
-  text-decoration: none;
+}
+.nav__link {
   color: #000;
+  text-decoration: none;
 }
 .recipes {
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
+  background-image: url(../images/background_recipes.svg);
 }
 .recipes__title {
   margin: 0 0 24px;
