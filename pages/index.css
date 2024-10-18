@@ -11,7 +11,9 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  background-size: cover;
   background-image: url(../images/background_header.svg);
+  position: relative;
 }
 .header__image {
   position: absolute;
@@ -48,6 +50,8 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  color: #6f6f6f;
 }
 .header__paragraph {
   margin: 0;
@@ -55,6 +59,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  color: #000;
 }
 .nav__logo {
   position: relative;
@@ -66,4 +71,26 @@
   gap: 20px;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+}
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+.recipes__title {
+  margin: 0 0 24px;
+}
+.recipes__subtitle {
+  margin: 0 0 80px;
+}
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  list-style-type: none;
+}
+.recipes__videos-caption {
+  display: flex;
+  justify-content: space-between;
 }
