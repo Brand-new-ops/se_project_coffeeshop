@@ -115,10 +115,15 @@
 .reservation {
   padding: 100px 0 120px;
   background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
 }
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .reservation__form {
   margin: 0 auto;
@@ -138,6 +143,10 @@
   box-sizing: border-box;
   margin: 8px 0 32px;
   border: 1px solid #838383;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
 }
 .form__button {
   border-radius: 4px;
@@ -145,6 +154,12 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
+  background-color: #1878dc;
+  color: #fff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 .form__checkbox {
   border-radius: 2px;
