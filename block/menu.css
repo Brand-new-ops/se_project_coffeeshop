@@ -8,6 +8,7 @@
 
 .menu__title {
   margin: 0 0 24px;
+  max-width: 780px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
@@ -17,10 +18,11 @@
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
-  align-self: center;
+  text-align: center;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
+  position: relative;
 }
 
 .menu__cards {

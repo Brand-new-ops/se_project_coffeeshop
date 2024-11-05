@@ -3,13 +3,14 @@
   background-color: #0a2750;
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
 }
 .recipes__title {
   margin: 0 0 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .recipes__subtitle {
   margin: 0 0 80px;
